@@ -1,6 +1,4 @@
-class CreateUserDTO {
-  TelegramId: number;
+export class UserDTO {
+  UserId: number;
   date: Date;
-  sendReport: number;
-  receivesReport: number;
 }
